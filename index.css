@@ -1,0 +1,62 @@
+.fila {
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.columna {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#calculadora {
+  height: 10cm;
+  position: relative;
+}
+
+#historial {
+  font-size: 20px;
+  position: absolute;
+  right: 100px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.pantalla {
+  margin-right: 95px;
+  margin-bottom: 15px;
+  border: none;
+  text-align: right;
+  font-size: 30px;
+}
+
+.pantalla:focus {
+  outline: none;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(226, 226, 226);
+  box-shadow: 0 0 3px 0px black;
+}
+
+button:active {
+  background-color: rgb(202, 202, 202);
+  box-shadow: 0 0 2px 0px black;
+}/*# sourceMappingURL=index.css.map */
